@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .input {
+    @apply rounded border bg-background p-2;
+  }
+
+  .button {
+    @apply rounded bg-primary p-2 text-white;
+  }
+}
+
+@layer utilities {
+  .gradient {
+    @apply inline-block bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+}
