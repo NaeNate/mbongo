@@ -42,7 +42,13 @@ export default function Index() {
     <>
       <h1 className="gradient text-6xl font-bold">Mbongo</h1>
 
-      <p className="mb-2 mt-6 text-3xl font-semibold">Events</p>
+      <div className="mb-2 mt-6 flex items-center gap-4">
+        <p className="text-3xl font-semibold">Events</p>
+        <Link to="past" className="text-xl">
+          (Past Events)
+        </Link>
+      </div>
+
       <div className="space-y-2">
         {items.events.map((event) => (
           <Event key={event.id} event={event} type="event" />

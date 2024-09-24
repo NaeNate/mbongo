@@ -4,28 +4,27 @@
   "type": "module",
   "scripts": {
     "dev": "remix vite:dev",
-    "build": "remix vite:build",
-    "clean": "rm -rf node_modules pnpm-lock.yaml && pnpm update --latest"
+    "build": "remix vite:build"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
-    "@libsql/client": "^0.12.0",
-    "@remix-run/node": "^2.12.0",
-    "@remix-run/react": "^2.12.0",
-    "@remix-run/serve": "^2.12.0",
+    "@libsql/client": "^0.14.0",
+    "@remix-run/node": "^2.12.1",
+    "@remix-run/react": "^2.12.1",
+    "@remix-run/serve": "^2.12.1",
     "isbot": "^5.1.17",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.12.0",
-    "@types/react": "^18.3.7",
+    "@remix-run/dev": "^2.12.1",
+    "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.12",
-    "vite": "^5.4.6"
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7"
   }
 }
